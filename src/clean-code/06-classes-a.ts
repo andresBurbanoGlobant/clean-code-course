@@ -1,7 +1,7 @@
 (() => {
 
     // No aplica el pricipio de responsabilidad unica.
-    
+
     type Gender = 'M'|'F';
     
     class Person {
@@ -13,7 +13,7 @@
     }
 
     const newPerson = new Person('Sara', 'F', new Date(2016, 5, 21))
-    console.log(newPerson);
+    console.log({ newPerson });
 
     class User extends Person {
         private lastAccess: Date;
