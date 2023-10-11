@@ -1,5 +1,5 @@
 import './style.css'
-import './clean-code/07-homework-b'
+import './code-smells/02-high-coupling'
 
 const app = document.querySelector<HTMLDivElement>('#app')!
 
